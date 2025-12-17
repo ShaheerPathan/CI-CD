@@ -34,7 +34,7 @@ jobs:
       - name: Prepare site folder
         run: |
           mkdir -p site
-          cp sentinel-drive-app.html site/index.html
+          cp index.html site/index.html
 
       - name: Upload artifact for Pages
         if: github.ref == 'refs/heads/main'
